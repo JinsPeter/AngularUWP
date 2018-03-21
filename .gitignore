@@ -1,0 +1,9 @@
+./AngularUWP/bin
+./AngularUWP/bld
+./AngularUWP/dist
+./AngularUWP/node_modules
+/.vs
+/AngularUWP/bin/Debug/AppX
+/AngularUWP/bld
+/AngularUWP/dist
+/AngularUWP/node_modules
