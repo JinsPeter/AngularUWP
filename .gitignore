@@ -3,9 +3,11 @@
 /AngularUWP/bld
 /AngularUWP/node_modules
 /AngularUWP/dist
-/AngularUWP.Managed/obj
 /AngularUWP.RuntimeComponent/obj
-/AngularUWP.RuntimeComponent/bin/x64/Debug
-/AngularUWP/BundleArtifacts
-/AngularUWP/AppPackages/AngularUWP_0.0.0.0_Test
 /AngularUWP.RuntimeComponent/bin
+
+/AngularUWP.RuntimeComponent/bin
+
+#build
+/AngularUWP/BundleArtifacts
+/AngularUWP/AppPackages/
