@@ -5,7 +5,6 @@ namespace AngularUWP.RuntimeComponent
     {
         public string TestFunction()
         {
-
             return "Hello World!";
         }
     }

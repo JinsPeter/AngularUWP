@@ -1,5 +1,6 @@
-import { Component,OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
+declare const AngularUWP: any;
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
@@ -12,6 +13,7 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     var test = new AngularUWP.RuntimeComponent.TestClass();
     let world = test.testFunction();
+    this.title = world;
   }
 
 }
