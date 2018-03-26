@@ -4,3 +4,5 @@
 /AngularUWP/node_modules
 /AngularUWP/dist
 /AngularUWP.Managed/obj
+/AngularUWP.RuntimeComponent/obj
+/AngularUWP.RuntimeComponent/bin/x64/Debug

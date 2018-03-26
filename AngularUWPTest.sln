@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "AngularUWP", "AngularUWP\AngularUWP.jsproj", "{E4875406-D3BA-4BDD-A5D9-F9BF03C7F546}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularUWP.RuntimeComponent", "AngularUWP.RuntimeComponent\AngularUWP.RuntimeComponent.csproj", "{FEF54642-FFC8-4DAB-BAC2-FF323167E9AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,22 @@ Global
 		{E4875406-D3BA-4BDD-A5D9-F9BF03C7F546}.Release|x86.ActiveCfg = Release|x86
 		{E4875406-D3BA-4BDD-A5D9-F9BF03C7F546}.Release|x86.Build.0 = Release|x86
 		{E4875406-D3BA-4BDD-A5D9-F9BF03C7F546}.Release|x86.Deploy.0 = Release|x86
+		{FEF54642-FFC8-4DAB-BAC2-FF323167E9AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF54642-FFC8-4DAB-BAC2-FF323167E9AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF54642-FFC8-4DAB-BAC2-FF323167E9AB}.Debug|ARM.ActiveCfg = Debug|ARM
+		{FEF54642-FFC8-4DAB-BAC2-FF323167E9AB}.Debug|ARM.Build.0 = Debug|ARM
+		{FEF54642-FFC8-4DAB-BAC2-FF323167E9AB}.Debug|x64.ActiveCfg = Debug|x64
+		{FEF54642-FFC8-4DAB-BAC2-FF323167E9AB}.Debug|x64.Build.0 = Debug|x64
+		{FEF54642-FFC8-4DAB-BAC2-FF323167E9AB}.Debug|x86.ActiveCfg = Debug|x86
+		{FEF54642-FFC8-4DAB-BAC2-FF323167E9AB}.Debug|x86.Build.0 = Debug|x86
+		{FEF54642-FFC8-4DAB-BAC2-FF323167E9AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF54642-FFC8-4DAB-BAC2-FF323167E9AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEF54642-FFC8-4DAB-BAC2-FF323167E9AB}.Release|ARM.ActiveCfg = Release|ARM
+		{FEF54642-FFC8-4DAB-BAC2-FF323167E9AB}.Release|ARM.Build.0 = Release|ARM
+		{FEF54642-FFC8-4DAB-BAC2-FF323167E9AB}.Release|x64.ActiveCfg = Release|x64
+		{FEF54642-FFC8-4DAB-BAC2-FF323167E9AB}.Release|x64.Build.0 = Release|x64
+		{FEF54642-FFC8-4DAB-BAC2-FF323167E9AB}.Release|x86.ActiveCfg = Release|x86
+		{FEF54642-FFC8-4DAB-BAC2-FF323167E9AB}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
