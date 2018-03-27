@@ -126,6 +126,10 @@
   <Target Name="AfterBuild">
   </Target>
 -->
+  <Target Name="Run Command" BeforeTargets="Build">
+    <Message Text="* * * * * * Deleting Build App * * * * * *" Importance="high" />
+    <Exec Command="rmdir bld /S /Q" />
+  </Target>
   <Target Name="Build Angular" BeforeTargets="Build">
     <Message Text="* * * * * * Building Angular App * * * * * *" Importance="high" />
     <Exec Command="ng build --dev -ec -vc false" Condition="'$(Configuration)'=='Debug'" />
@@ -135,6 +139,6 @@
     <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
     <AppxBundle>Always</AppxBundle>
-    <AppxBundlePlatforms>x64</AppxBundlePlatforms>
+    <AppxBundlePlatforms>x86|x64</AppxBundlePlatforms>
   </PropertyGroup>
 </Project>
